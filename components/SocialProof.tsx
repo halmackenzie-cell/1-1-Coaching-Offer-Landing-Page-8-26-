@@ -4,20 +4,21 @@ import VideoTestimonial from "@/components/VideoTestimonial";
 const videoTestimonials = [
   {
     name: "Mike S.",
-    src: "/testimonials/mike-seitz-testimonial.mp4",
+    youtubeId: "8jpxIBeGYOE",
+    aspect: "aspect-[9/16]",
     title: "Real Estate Private Equity, Madison International Realty",
     description:
       "“Hal's greatest strength is that he created a program that works for the everyday person. He's not a body builder or professional athlete. He's a regular dude with a finance job that transformed his health and body without taking away his ‘life’. I lost 15 pounds (10% of weight) in 3 months with Hal. I gained strength, energy, and most importantly habits. His coaching has made a life long impact to me.”",
   },
   {
     name: "Pete L.",
-    src: "/testimonials/pete-longo-testimonial.mp4",
+    youtubeId: "Gns05loOkns",
     description:
       "Pete has lost 40 pounds and 5 inches off his waist since he signed up for coaching. He lost 25 pounds while working together and has since dropped another 15 lbs on his own while continuing to execute the same program we put in place. Pete is now at a weight he hasn't seen since high school and isn't stopping anytime soon. The healthy habits we rebuilt together are becoming a part of his identity.",
   },
   {
     name: "Scott C.",
-    src: "/testimonials/scott-cohen-testimonial.mp4",
+    youtubeId: "7hRiJ33eZPI",
     description:
       "Scott lost over 25 lbs in 5 months and significantly increased his energy levels while tackling vacations, work trips, and a busy social life with his wife and two kids.",
   },
@@ -180,14 +181,15 @@ export default function SocialProof() {
               Full body recomposition — losing fat and building muscle at
               the same time — in about 5 months.
             </p>
-            <video
-              controls
-              playsInline
-              preload="metadata"
-              className="mt-4 w-full rounded-xl bg-gray-100"
-            >
-              <source src="/testimonials/chris-d-testimonial.mp4" type="video/mp4" />
-            </video>
+            <div className="relative mt-4 aspect-video w-full overflow-hidden rounded-xl bg-gray-100">
+              <iframe
+                src="https://www.youtube.com/embed/1Yoa0Goc9lg"
+                title="Chris D. testimonial video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 h-full w-full"
+              />
+            </div>
           </div>
 
           <div className="rounded-2xl border border-black/10 p-6">
@@ -225,7 +227,8 @@ export default function SocialProof() {
               <VideoTestimonial
                 key={v.name}
                 name={v.name}
-                src={v.src}
+                youtubeId={v.youtubeId}
+                aspect={v.aspect}
                 title={v.title}
                 description={v.description}
               />
