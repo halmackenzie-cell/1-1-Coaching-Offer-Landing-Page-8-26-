@@ -28,18 +28,21 @@ This produces a fully static site in the `out/` directory. Verify it locally bef
 npx serve out
 ```
 
-## Deploy to Cloudflare Pages
+## Deploy to Vercel
 
-1. **Connect the repo** (recommended) — in the Cloudflare dashboard, go to **Workers & Pages → Create → Pages → Connect to Git**, and select this repository. Alternatively, for a one-off deploy without Git, use **Direct Upload** and drag in the `out/` folder after running `npm run build` locally.
-2. **Build settings** (only needed for the Git-connected flow):
-   - **Build command:** `next build`
-   - **Build output directory:** `out`
-3. Cloudflare will build and deploy automatically on every push to the connected branch (Git flow), or serve the uploaded folder immediately (Direct Upload flow).
+This repo is connected to Vercel via its GitHub integration — every push to `main` triggers an automatic build and deploy. No manual steps needed for a normal update:
+
+1. Commit and push to `main`.
+2. Vercel picks up the push, runs `next build`, and deploys automatically.
+3. The new deployment is live at every domain attached to the project within a minute or two.
+
+To connect a fresh clone of this repo to Vercel from scratch: import the repo at vercel.com (**Add New... → Project**), and leave the Framework Preset/Build Command/Output Directory at their auto-detected Next.js defaults — no environment variables are required.
 
 ### DNS: subdomain setup
 
-This site deploys to a subdomain (e.g. `book.halthehealthcoach.com`), separate from the root domain (`halthehealthcoach.com`), which stays on Squarespace.
+This site is deployed on the subdomain **`start.halthehealthcoach.com`**, separate from the root domain (`halthehealthcoach.com`), which stays on Squarespace.
 
-- In Cloudflare Pages, add `book.halthehealthcoach.com` as a **Custom domain** for this Pages project. Cloudflare will provide the exact CNAME target to use (typically `<project-name>.pages.dev`).
-- In whatever DNS provider manages `halthehealthcoach.com`'s DNS records (Squarespace, or elsewhere if already migrated), add a **CNAME record** for the `book` subdomain pointing to that Cloudflare Pages target.
-- **Do not touch the root domain's existing Squarespace DNS records** (the `A`/`ALIAS`/`CNAME` records for `@` and `www`) — those keep serving the existing Squarespace site untouched. Only the new `book` subdomain record is added.
+- In the Vercel project, add `start.halthehealthcoach.com` under **Settings → Domains**. Vercel will show the exact DNS record to add (typically a `CNAME` pointing at `cname.vercel-dns.com`).
+- In whatever DNS provider manages `halthehealthcoach.com`'s DNS records (Squarespace, or elsewhere if already migrated), add that record for the `start` subdomain.
+- **Do not touch the root domain's existing Squarespace DNS records** (the `A`/`ALIAS`/`CNAME` records for `@` and `www`) — those keep serving the existing Squarespace site untouched. Only the `start` subdomain record is added.
+- Confirm it's working: the domain should show a green "Valid Configuration" in Vercel's domain settings, not a DNS warning.
