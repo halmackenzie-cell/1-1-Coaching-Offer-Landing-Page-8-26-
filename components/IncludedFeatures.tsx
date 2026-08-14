@@ -32,9 +32,14 @@ const bucket1 = [
     linkHref: "https://www.loom.com/share/85d081e592604b98885f5b6b8a309660",
   },
   {
-    title: "Your Coach's Weekly Recap, Right Back at You",
+    title: "Advanced Biomarker Analysis",
     description:
-      "Accountability runs both directions. Each week I share my own weekly check in with my clients to give you a closer look into my day to day routine and strategies.",
+      "Your lab work can now be integrated into your coaching plan via my partnership with Vitality. Receive advanced blood panels at the beginning of your coaching, allowing your program to be further customized to optimize levels and address any deficiencies. Re-test 6 months later to monitor improvement. (lab work is a $1000 add-on to the standard pricing)",
+  },
+  {
+    title: "Custom Mental Fitness Program",
+    description:
+      "Train your mind like you train your body. Using my Mental Fitness Operating System (MFOS) framework, we'll build a personalized mental fitness routine to take your performance in all facets of life to the next level.",
   },
 ];
 
@@ -58,6 +63,16 @@ const bucket2 = [
     title: "Lifetime Access to the Winning & Wellness Community",
     description:
       "A private community of people who refuse to choose between climbing their career and building their body. It's yours to keep — even after our 1:1 work together ends. Non-1:1 members pay $19/month for this alone; as a coaching client, it's included for life.",
+  },
+  {
+    title: "Your Coach's Weekly Recap, Right Back at You",
+    description:
+      "Accountability runs both directions. Each week I share my own weekly check in with my clients to give you a closer look into my day to day routine and strategies.",
+  },
+  {
+    title: "Access to Hal the Health Coach AI",
+    description:
+      "During the entirety of your coaching you will receive access to Hal the Health Coach AI, custom GPTs that I have trained thoroughly in my coaching approach and expertise. My Nutrition Coach and Fitness Coach are live, with others to come. Ask them questions on any topic within their expertise and receive responses immediately, as if you were talking directly to me.",
   },
 ];
 

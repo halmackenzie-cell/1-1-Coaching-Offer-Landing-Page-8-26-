@@ -28,35 +28,7 @@ export default function SocialProof() {
   return (
     <section className="px-4 py-16 sm:px-6 sm:py-24">
       <div className="mx-auto max-w-6xl">
-        {/* Guarantee */}
-        <div className="mx-auto max-w-3xl rounded-2xl border-2 border-lime-600 bg-black/5 p-6 text-center sm:p-10">
-          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="mx-auto h-10 w-10 text-lime-700">
-            <path
-              d="M24 4l16 6v12c0 10-6.8 17.4-16 22-9.2-4.6-16-12-16-22V10l16-6z"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M17 24l5 5 9-11"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          <h2 className="mt-3 text-sm font-bold uppercase tracking-widest text-black sm:text-base">
-            Coach Hal&apos;s Guarantee
-          </h2>
-          <p className="mt-3 text-lg font-bold text-black sm:text-2xl">
-            If you track your food, complete all scheduled workouts, hit
-            your step targets, and complete every check-in for 6 months
-            straight — and haven&apos;t lost at least 20 lbs — Hal keeps
-            coaching you at no charge until you do.
-          </p>
-        </div>
-
-        <h2 className="mt-20 text-center text-2xl font-extrabold tracking-tight text-black sm:text-4xl">
+        <h2 className="text-center text-2xl font-extrabold tracking-tight text-black sm:text-4xl">
           Social Proof and Testimonials
         </h2>
 

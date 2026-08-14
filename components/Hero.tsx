@@ -13,11 +13,12 @@ export default function Hero() {
           Life, or Your Beer
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base text-gray-600 sm:text-lg">
-          1:1 holistic health coaching for busy professionals over 30 who are
-          15–30+ lbs from the body they&apos;ve always wanted. Real systems,
-          real accountability, real results. Built by someone who transformed
-          his own physique while working in Corporate America for over 15
-          years, and now helps other high achievers do the same.
+          1:1 holistic health coaching for high performers over 30 who want
+          to lose fat, build muscle, and maintain their quality of life as
+          they get older. Real systems, real accountability, real results.
+          Created by someone who transformed his own physique while working
+          in Corporate America for over 15 years, and now helps other high
+          achievers do the same.
         </p>
 
         <div className="mx-auto mt-8 grid max-w-xl grid-cols-2 gap-6 sm:gap-10">

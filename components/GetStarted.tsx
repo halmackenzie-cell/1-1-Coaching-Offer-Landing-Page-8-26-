@@ -41,11 +41,6 @@ export default function GetStarted() {
           real transformations happen.
         </p>
 
-        <p className="mx-auto mt-4 max-w-2xl text-base font-semibold text-black">
-          Don&apos;t hit 20 lbs lost in 6 months while fully compliant?
-          Hal keeps coaching you free until you do.
-        </p>
-
         <p className="mt-6 text-sm text-gray-600">
           Questions? Email hal.mackenzie@gmail.com or text/call
           914-522-2604.
