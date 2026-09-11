@@ -10,7 +10,7 @@ export default function GetStarted() {
 
         <p className="mx-auto mt-4 max-w-xl text-sm font-semibold text-black">
           Due to the personalized nature of my approach, I only take on 2 new
-          1:1 clients per month — weekly Loom feedback and direct access
+          1:1 clients per month: weekly Loom feedback and direct access
           don&apos;t work if I&apos;m spread across 50 people.
         </p>
 
@@ -34,10 +34,10 @@ export default function GetStarted() {
         </div>
 
         <p className="mx-auto mt-8 max-w-2xl text-base text-gray-600">
-          $2,500 enrollment fee — covers your onboarding call, custom
+          $3,250 enrollment fee (covers your onboarding call, custom
           nutrition plan, custom training program, and your first month of
-          coaching. Then $325/month after that. No minimum commitment,
-          though 6 months is strongly encouraged — that&apos;s where the
+          coaching). Then $400/month after that. No minimum commitment,
+          though 6 months is strongly encouraged: that&apos;s where the
           real transformations happen.
         </p>
 

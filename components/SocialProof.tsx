@@ -40,10 +40,13 @@ export default function SocialProof() {
           <p className="mx-auto mt-4 max-w-3xl text-center text-base text-gray-600">
             After a decade of bad habits in my 20&apos;s compounding, I peaked
             at 242 lbs in my early 30s. Over the next few years I lost ~70
-            pounds, and then packed on 16 pounds of lean mass. All while
-            rising to an executive level position in corporate finance,
-            starting a family, and refusing to sacrifice my social life and
-            the foods I enjoy.
+            pounds. More recently, I have gone through intentional,
+            structured muscle building and fat loss phases, gaining ~22lbs
+            over 10 months (the right way), and then losing ~24 lbs over 6
+            months, completely recomping my body. All while rising to an
+            executive level position in corporate finance, starting a
+            family, and refusing to sacrifice my social life and the foods
+            I enjoy.
           </p>
           <div className="mt-8">
             <p className="text-center text-base font-semibold uppercase tracking-wide text-gray-500">
@@ -94,10 +97,9 @@ export default function SocialProof() {
 
           <div className="mt-10 text-center">
             <h3 className="text-xl font-bold text-black sm:text-2xl">
-              <span className="text-lime-700">242 lbs</span> →{" "}
-              <span className="text-lime-700">~70 lbs</span> lost, then{" "}
-              <span className="text-lime-700">+16 lbs</span> of lean muscle
-              over 11 months.
+              Lost <span className="text-lime-700">~70 lbs</span>, then went
+              through intentional muscle building and fat loss phases,
+              building the body of a superhero.
             </h3>
             <p className="mt-3 text-base text-gray-600">
               &quot;I test everything on myself first, then teach it.&quot;
@@ -150,8 +152,8 @@ export default function SocialProof() {
               Chris D. (&quot;The Hurricane&quot;)
             </h3>
             <p className="mt-3 text-base italic text-gray-600">
-              Full body recomposition — losing fat and building muscle at
-              the same time — in about 5 months.
+              Full body recomposition (losing fat and building muscle at
+              the same time) in about 5 months.
             </p>
             <div className="relative mt-4 aspect-video w-full overflow-hidden rounded-xl bg-gray-100">
               <iframe

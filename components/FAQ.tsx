@@ -2,7 +2,7 @@ const faqs = [
   {
     question: "What if I travel a lot or have an unpredictable schedule?",
     answer:
-      "That's exactly what the Weekly Average Approach is built for. One bad day, one travel week, one chaotic month at work — none of it derails you, because we're tracking averages, not perfection. My most successful clients have transformed their physiques while navigating work trips, vacations, family responsibilities, and packed social calendars. They don't wait until “when things calm down” as let's be honest, that never happens. The plan we built fits into your life, not the other way around.",
+      "That's exactly what the Weekly Average Approach is built for. One bad day, one travel week, one chaotic month at work: none of it derails you, because we're tracking averages, not perfection. My most successful clients have transformed their physiques while navigating work trips, vacations, family responsibilities, and packed social calendars. They don't wait until “when things calm down” as let's be honest, that never happens. The plan we built fits into your life, not the other way around.",
   },
   {
     question:
@@ -13,23 +13,23 @@ const faqs = [
   {
     question: "Do I need a gym, or special equipment?",
     answer:
-      "No. Your training program is built around whatever you actually have access to — a full gym, a home setup, a hotel gym on the road, whatever. I ask about your equipment and experience upfront specifically so the program fits your reality, not some ideal version of it. And if it needs to be adjusted along the way due to trips or changes in gym access, we do that in real time.",
+      "No. Your training program is built around whatever you actually have access to: a full gym, a home setup, a hotel gym on the road, whatever. I ask about your equipment and experience upfront specifically so the program fits your reality, not some ideal version of it. And if it needs to be adjusted along the way due to trips or changes in gym access, we do that in real time.",
   },
   {
     question:
       "What if I do everything right and still don't hit 20 lbs in 6 months?",
     answer:
-      "Then I keep coaching you for free until you do. That's the guarantee: track your food, complete your workouts, hit your step targets, and complete every check-in for 6 months straight. If you've held up your end and the scale hasn't, I haven't earned my fee yet — so I keep working until it's done.",
+      "Then I keep coaching you for free until you do. That's the guarantee: track your food, complete your workouts, hit your step targets, and complete every check-in for 6 months straight. If you've held up your end and the scale hasn't, I haven't earned my fee yet, so I keep working until it's done.",
   },
   {
     question: "Is there a contract? Can I cancel?",
     answer:
-      "No minimum commitment. You can stop anytime. That said, 6-12 months is where the real transformations happen — none of the client wins you're reading about happened within a few months — so I'll always encourage you to give it the runway to work.",
+      "No minimum commitment. You can stop anytime. That said, 6-12 months is where the real transformations happen (none of the client wins you're reading about happened within a few months), so I'll always encourage you to give it the runway to work.",
   },
   {
     question: "How much time does this actually take each week?",
     answer:
-      "Less than most people expect. Your weekly check-in takes ~10 minutes to fill out. I send back a 10-20 minute Loom video for you to watch at your convenience. Calls are entirely optional and on your schedule — some clients talk to me weekly, some barely need to. The actual time cost is showing up for your workouts and eating within your targets, which you're already spending time on today — just without a plan behind it.",
+      "Less than most people expect. Your weekly check-in takes ~10 minutes to fill out. I send back a 10-20 minute Loom video for you to watch at your convenience. Calls are entirely optional and on your schedule: some clients talk to me weekly, some barely need to. The actual time cost is showing up for your workouts and eating within your targets, which you're already spending time on today, just without a plan behind it.",
   },
   {
     question:

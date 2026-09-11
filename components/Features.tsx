@@ -2,7 +2,7 @@ const pillars = [
   {
     title: "The Flexible Dieting Framework",
     description:
-      "No food is off-limits. 80–90% of what you eat is whole, protein- and fiber-rich food; the other 10–20% is yours to spend however you want — pizza, beer, whatever. Just three numbers matter: calories, protein, fiber.",
+      "No food is off-limits. 80–90% of what you eat is whole, protein- and fiber-rich food; the other 10–20% is yours to spend however you want: pizza, beer, whatever. Just three numbers matter: calories, protein, fiber.",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="h-10 w-10">
         <circle cx="24" cy="24" r="20" stroke="currentColor" strokeWidth="2" />
@@ -19,7 +19,7 @@ const pillars = [
   {
     title: "The Stronger & Leaner Training Protocol",
     description:
-      "Resistance training is the engine, not cardio. Built on consistency, technique, intensity, progressive overload, and rest — so you get visibly stronger and leaner at the same time, not just lighter on the scale.",
+      "Resistance training is the engine, not cardio. Built on consistency, technique, intensity, progressive overload, and rest, so you get visibly stronger and leaner at the same time, not just lighter on the scale.",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="h-10 w-10">
         <rect x="4" y="20" width="6" height="8" rx="1" stroke="currentColor" strokeWidth="2" />

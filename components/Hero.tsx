@@ -9,7 +9,7 @@ export default function Hero() {
           Peak Physique Program
         </span>
         <h1 className="mt-6 text-3xl font-extrabold tracking-tight text-black sm:text-5xl">
-          Get Lean and Strong — Without Giving Up Your Career, Your Social
+          Get Lean and Strong: Without Giving Up Your Career, Your Social
           Life, or Your Beer
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base text-gray-600 sm:text-lg">
@@ -70,7 +70,7 @@ export default function Hero() {
 
         <p className="mx-auto mt-4 max-w-xl text-sm font-semibold text-black">
           Due to the personalized nature of my approach, I only take on 2 new
-          1:1 clients per month — weekly Loom feedback and direct access
+          1:1 clients per month: weekly Loom feedback and direct access
           don&apos;t work if I&apos;m spread across 50 people.
         </p>
 

@@ -15,10 +15,35 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const TITLE = "Peak Physique Program | Health Coaching with Hal";
+const DESCRIPTION =
+  "1:1 coaching for busy professionals and parents over 30 who are 15-30+ lbs from the body they've always wanted.";
+
 export const metadata: Metadata = {
-  title: "Peak Physique Program | Health Coaching with Hal",
-  description:
-    "1:1 coaching for busy professionals and parents over 30 who are 15-30+ lbs from the body they've always wanted.",
+  metadataBase: new URL("https://start.halthehealthcoach.com"),
+  title: TITLE,
+  description: DESCRIPTION,
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/",
+    siteName: "Health Coaching with Hal",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1024,
+        height: 1024,
+        alt: "Health Coaching with Hal logo",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({

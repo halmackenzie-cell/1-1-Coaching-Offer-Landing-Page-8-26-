@@ -2,7 +2,7 @@ const bucket1 = [
   {
     title: "Personalized Lifestyle Assessment & Programming",
     description:
-      "A full analysis of your current routine, with specific feedback and habit-building steps that fit inside the life you already have — not a life you'd need to rebuild from scratch.",
+      "A full analysis of your current routine, with specific feedback and habit-building steps that fit inside the life you already have, not a life you'd need to rebuild from scratch.",
   },
   {
     title: "Custom Training Program",
@@ -12,12 +12,12 @@ const bucket1 = [
   {
     title: "Custom Nutrition Program",
     description:
-      "Calorie and macro targets set to your body composition goals and timeline — paired with suggested meals and recipes built around restaurants and foods you already eat, not a meal plan you have to overhaul your life for.",
+      "Calorie and macro targets set to your body composition goals and timeline, paired with suggested meals and recipes built around restaurants and foods you already eat, not a meal plan you have to overhaul your life for.",
   },
   {
     title: "Unlimited 1:1 Strategy Calls",
     description:
-      "Full access to my calendar for live calls. The schedule is yours to set based on your preference. Some clients have weekly calls, while others don't schedule any — both get great results.",
+      "Full access to my calendar for live calls. The schedule is yours to set based on your preference. Some clients have weekly calls, while others don't schedule any, and both get great results.",
   },
   {
     title: "24/7 Direct Messaging",
@@ -27,7 +27,7 @@ const bucket1 = [
   {
     title: "Weekly Check-Ins with Loom Video Feedback",
     description:
-      "Every week, you check in — wins, sticking points, what's coming up. I respond with a personal Loom video (or notes written in a Google doc, your call). Clients love these more than almost anything else in the program.",
+      "Every week, you check in: wins, sticking points, what's coming up. I respond with a personal Loom video (or notes written in a Google doc, your call). Clients love these more than almost anything else in the program.",
     linkText: "Here's a sample one.",
     linkHref: "https://www.loom.com/share/85d081e592604b98885f5b6b8a309660",
   },
@@ -57,12 +57,12 @@ const bucket2 = [
   {
     title: "Nutrition Resource Vault + 100 High-Protein Recipes",
     description:
-      "My personal shortlist of meal delivery services, specialty food brands, and frozen meat/fish delivery — plus a full recipe library so “what do I eat” is never a daily decision.",
+      "My personal shortlist of meal delivery services, specialty food brands, and frozen meat/fish delivery, plus a full recipe library so “what do I eat” is never a daily decision.",
   },
   {
     title: "Lifetime Access to the Winning & Wellness Community",
     description:
-      "A private community of people who refuse to choose between climbing their career and building their body. It's yours to keep — even after our 1:1 work together ends. Non-1:1 members pay $19/month for this alone; as a coaching client, it's included for life.",
+      "A private community of people who refuse to choose between climbing their career and building their body. It's yours to keep, even after our 1:1 work together ends. Non-1:1 members pay $19/month for this alone; as a coaching client, it's included for life.",
   },
   {
     title: "Your Coach's Weekly Recap, Right Back at You",
@@ -139,7 +139,7 @@ export default function IncludedFeatures() {
 
         <div className="mt-12">
           <h3 className="text-center text-lg font-bold text-black sm:text-xl">
-            Bucket 1 — Your Custom Plan & Ongoing Accountability
+            Bucket 1: Your Custom Plan & Ongoing Accountability
           </h3>
           <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-10">
             {bucket1.map((item) => (
@@ -150,7 +150,7 @@ export default function IncludedFeatures() {
 
         <div className="mt-16">
           <h3 className="text-center text-lg font-bold text-black sm:text-xl">
-            Bucket 2 — Exclusive Perks
+            Bucket 2: Exclusive Perks
           </h3>
           <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-10">
             {bucket2.map((item) => (
@@ -176,7 +176,7 @@ export default function IncludedFeatures() {
           </h3>
           <p className="mx-auto mt-3 max-w-2xl text-base text-gray-300">
             Through my partnership with HSS, receive access to their Sports
-            Performance Facilities — including VO2 max testing, Resting
+            Performance Facilities, including VO2 max testing, Resting
             Metabolic Rate, and Metabolic Efficiency testing. This is access
             and data that most coaches simply can&apos;t offer.
           </p>
