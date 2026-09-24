@@ -4,6 +4,7 @@ import IncludedFeatures from "@/components/IncludedFeatures";
 import SocialProof from "@/components/SocialProof";
 import FAQ from "@/components/FAQ";
 import GetStarted from "@/components/GetStarted";
+import LiveLongLiveStrong from "@/components/LiveLongLiveStrong";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SocialProof />
       <FAQ />
       <GetStarted />
+      <LiveLongLiveStrong />
     </main>
   );
 }
