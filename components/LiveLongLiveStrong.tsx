@@ -124,10 +124,11 @@ export default function LiveLongLiveStrong() {
         <div className="mx-auto mt-12 max-w-xl rounded-2xl border-2 border-lime-600 bg-black/5 p-6 text-center sm:p-10">
           <p className="text-base font-semibold text-black">
             This program is still being built, and I&apos;m looking for a
-            small group of serious people to help shape it. Reply right
-            here or text me at 914 522 2604 if you&apos;re interested. The
-            beta testers will receive a significantly discounted price, so
-            right now is the cheapest the program will ever be.
+            small group of serious people to help shape it. Provide your
+            information below or text me at 914 522 2604 if you&apos;re
+            interested. The beta testers will receive a significantly
+            discounted price, so right now is the cheapest the program
+            will ever be.
           </p>
 
           {status === "success" ? (
@@ -163,6 +164,20 @@ export default function LiveLongLiveStrong() {
                   type="email"
                   required
                   placeholder="Email"
+                  className="w-full rounded-lg border border-black/20 bg-white px-4 py-3 text-base text-black placeholder:text-gray-400 focus:border-black focus:outline-none"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="llls-phone" className="sr-only">
+                  Phone number
+                </label>
+                <input
+                  id="llls-phone"
+                  name="phone"
+                  type="tel"
+                  required
+                  placeholder="Phone number"
                   className="w-full rounded-lg border border-black/20 bg-white px-4 py-3 text-base text-black placeholder:text-gray-400 focus:border-black focus:outline-none"
                 />
               </div>
