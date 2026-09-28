@@ -13,14 +13,14 @@ const pillars = [
 ];
 
 const coreMetrics = [
-  "Waist-to-height ratio",
-  "Visceral fat",
   "Strength (tested by benchmarks like grip strength, bench press, deadlift)",
   "VO2 max",
+  "Waist-to-height ratio",
+  "Visceral fat",
   "Blood pressure",
   "ApoB",
   "HbA1c",
-  "Triglycerides",
+  "Lipid Panel",
 ];
 
 const howItWorks = [
