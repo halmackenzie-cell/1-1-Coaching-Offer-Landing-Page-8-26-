@@ -62,7 +62,7 @@ const bucket2 = [
   {
     title: "Lifetime Access to the Winning & Wellness Community",
     description:
-      "A private community of people who refuse to choose between climbing their career and building their body. It's yours to keep, even after our 1:1 work together ends. Non-1:1 members pay $149/month for this alone; as a coaching client, it's included for life.",
+      "A private community of people who refuse to choose between climbing their career and building their body. A revamped version is coming soon. 1:1 clients receive lifetime access. Everyone else will pay a monthly subscription.",
   },
   {
     title: "Your Coach's Weekly Recap, Right Back at You",
