@@ -15,7 +15,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const TITLE = "Peak Physique Program | Health Coaching with Hal";
+const TITLE = "Peak Performance Program | Health Coaching with Hal";
 const DESCRIPTION =
   "1:1 coaching for busy professionals and parents over 30 who are 15-30+ lbs from the body they've always wanted.";
 

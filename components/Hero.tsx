@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="px-4 py-16 text-center sm:px-6 sm:py-24">
       <div className="mx-auto max-w-3xl">
         <span className="inline-block rounded-full bg-lime-400 px-6 py-2 text-lg font-bold uppercase tracking-widest text-black sm:text-2xl">
-          Peak Physique Program
+          Peak Performance Program
         </span>
         <h1 className="mt-6 text-3xl font-extrabold tracking-tight text-black sm:text-5xl">
           Get Lean and Strong: Without Giving Up Your Career, Your Social
